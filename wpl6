@@ -1,0 +1,49 @@
+Program to print the numbers in Assending order.
+<html> 
+<body> 
+<p>Click the button to sort the array in ascending order.</p> 
+<button onclick="myFunction()">Try it</button> 
+<p id="demo"></p> 
+<script> 
+var points = [56, 80, 11, 95, 88, 42]; 
+document.getElementById("demo").innerHTML = points; 
+function myFunction() { 
+ points.sort(function(a,b){return a-b}); 
+ document.getElementById("demo").innerHTML = points; 
+} 
+</script> 
+</body> 
+</html> 
+Program to print the numbers in Desending order.
+<html> 
+<body> 
+<p>Click the button to sort the array in descending order.</p> 
+<button onclick="myFunction()">Try it</button> 
+<p id="demo"></p> 
+<script> 
+var points = [7, 1, 51, 80, 32, 76]; 
+document.getElementById("demo").innerHTML = points; 
+function myFunction() 
+{ 
+ points.sort(function(a, b){return b-a}); 
+ document.getElementById("demo").innerHTML = points; 
+} 
+</script> 
+</body> 
+</html>
+Program to print the Alphabets in Assending order.
+<html> 
+<body> 
+<p>Click the button to sort the array.</p> 
+<button onclick="myFunction()">Try it</button> 
+<p id="demo"></p> 
+<script> 
+var fruits = ["Camel", "Zebra", "Tiger", "Elephant"]; 
+document.getElementById("demo").innerHTML = fruits; 
+function myFunction() { 
+ fruits.sort(); 
+ document.getElementById("demo").innerHTML = fruits; 
+} 
+</script> 
+</body> 
+</html>
