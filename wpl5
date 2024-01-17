@@ -1,0 +1,77 @@
+# Program for FOR Loop
+<html>
+<body>
+<script type="text/javascript">
+var i=0;
+for (i=0;i<=5;i++)
+{
+document.write("The number is " + i);
+document.write("<br />");
+}
+</script>
+</body>
+</html>
+# Program for While Loop
+<html>
+<body>
+<script type="text/javascript">
+var i=0;
+while (i<=5)
+{
+document.write("The number is " + i);
+document.write("<br />");
+i++;
+}
+</script>
+</body>
+</html>
+# Program for DO WHILE Loop
+<html>
+<body>
+<script type="text/javascript">
+var i=0;
+do
+{
+document.write("The number is " + i);
+document.write("<br />");
+i++;
+}
+while (i<=5);
+</script>
+</body>
+</html>
+
+# Program for BREAK Loop
+<html>
+<body>
+<script type="text/javascript">
+var i=0;
+for (i=0;i<=10;i++)
+{
+if (i==3)
+{
+break;
+}
+document.write("The number is " + i);
+document.write("<br />");
+}
+</script>
+</body>
+</html>
+# Program for CONTINUE Loop
+<html>
+<body>
+<script type="text/javascript">
+var i=0
+for (i=0;i<=10;i++)
+{
+if (i==3)
+{
+continue;
+}
+document.write("The number is " + i);
+document.write("<br />");
+}
+</script>
+</body>
+</html>
